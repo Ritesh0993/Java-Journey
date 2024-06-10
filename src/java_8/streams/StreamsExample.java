@@ -1,19 +1,19 @@
-package java_8.streamsAPI;
+package java_8.streams;
 
-import data.Student;
-import data.StudentDataBase;
+import java_8.data.Student;
+import java_8.data.StudentDataBase;
 
 import java.util.List;
 import java.util.Map;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class streamExample {
+public class StreamsExample {
 
     public static void main(String[] args) {
 
-        Predicate<Student> gradePredicate = student -> student.getGradeLevel() >= 3;
-        Predicate<Student> gpaPredicate = student -> student.getGradeLevel() >= 3.9;
+        Predicate<Student> gradePredicate = student -> student.getGradeLevel()>=3;
+        Predicate<Student> gpaPredicate = student -> student.getGradeLevel()>=3.9;
 
 /*
         List<String> names = Arrays.asList("adam","dan","jenny");
@@ -24,9 +24,9 @@ public class streamExample {
 */
 
 
-        Map<String, List<String>> studentMap = StudentDataBase.getAllStudents().stream(). //.parallelStream dont forger.
+        Map<String,List<String>> studentMap = StudentDataBase.getAllStudents().stream(). //.parallelStream dont forger.
                 filter(gpaPredicate) // Stream<Student>
-                .collect(Collectors.toMap(Student::getName, Student::getActivities));
+                .collect(Collectors.toMap(Student::getName ,Student::getActivities ));
 
         System.out.println("studentMap  : " + studentMap);
 
@@ -51,5 +51,4 @@ public class streamExample {
 
 
     }
-
 }
