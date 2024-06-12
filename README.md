@@ -41,3 +41,76 @@ public interface MyFunctionalInterface {
 }
 ```
 
+### Stream API
+
+The Stream API provides a functional approach to processing sequences of elements. It supports operations like filter, map, and reduce, which can be chained together to form a pipeline.
+
+```java
+// Example of using Stream API
+List<String> myList = Arrays.asList("a1", "a2", "b1", "c2", "c1");
+myList.stream()
+    .filter(s -> s.startsWith("c"))
+    .map(String::toUpperCase)
+    .sorted()
+    .forEach(System.out::println);
+```
+### Optional Class
+
+The Optional class is a container object which may or may not contain a non-null value. It is used to represent a value that might be absent.
+
+```java
+// Example of using Optional
+Optional<String> optional = Optional.of("Hello");
+optional.ifPresent(System.out::println);
+```
+### Default Methods
+
+Default methods enable interfaces to have methods with implementation without affecting the classes that implement the interface. This feature allows the addition of new methods to interfaces without breaking the existing code.
+```java
+// Example of a default method in an interface
+public interface MyInterface {
+    default void defaultMethod() {
+        System.out.println("This is a default method");
+    }
+}
+```
+
+### Method References
+Method references provide a way to refer to methods without invoking them. They are used to create simple lambda expressions by referring to existing methods.
+
+```java
+// Example of method reference
+List<String> myList = Arrays.asList("a", "b", "c");
+myList.forEach(System.out::println);
+```
+
+### New Date and Time API
+Java 8 introduced a new date and time API in the java.time package. This new API is immutable and thread-safe, providing a comprehensive set of classes for date and time manipulation.
+
+```java
+LocalDateTime now = LocalDateTime.now();
+System.out.println(now);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
