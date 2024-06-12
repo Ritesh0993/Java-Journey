@@ -13,8 +13,7 @@ Welcome to the Java 8 New Features repository! This repository provides examples
     - [Default Methods](#default-methods)
     - [Method References](#method-references)
     - [New Date and Time API](#new-date-and-time-api)
-3. [Setup](#setup)
-4. [Usage](#usage)
+
 
 ## Introduction
 
