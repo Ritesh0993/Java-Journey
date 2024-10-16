@@ -1,0 +1,361 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/Java Journey.iml\" filepath=\"$PROJECT_DIR$/Java Journey.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision 6980e2d9275316e858dd9c92dd4f693db0dc9f85)
++++ b/.idea/modules.xml	(date 1729060350208)
+@@ -3,6 +3,7 @@
+   <component name="ProjectModuleManager">
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/Java Journey.iml" filepath="$PROJECT_DIR$/Java Journey.iml" />
++      <module fileurl="file://$PROJECT_DIR$/../javaPratice/javaPratice.iml" filepath="$PROJECT_DIR$/../javaPratice/javaPratice.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 6980e2d9275316e858dd9c92dd4f693db0dc9f85)
++++ b/.idea/misc.xml	(date 1729060350207)
+@@ -1,5 +1,18 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/../springBootLearning/springBootLearning/pom.xml" />
++      </list>
++    </option>
++    <option name="ignoredFiles">
++      <set>
++        <option value="$PROJECT_DIR$/../springBootLearning/springBootLearning/pom.xml" />
++      </set>
++    </option>
++  </component>
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"51483e12-95c4-43cf-ba3f-ff57842dee6b\" name=\"Changes\" comment=\"Initial Commit\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/collections/ArrayListEnhancements.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/constructorreference/ConstructorReferenceExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/data/Bike.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/data/Student.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/data/StudentDataBase.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/ComparingDatesPeriodExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/ComparingTimesDurationExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/DatetoLocalDateExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/FormattingLocalDateExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/FormattingLocalDateTimeExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/FormattingLocalTimeExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/InstantExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/LocalDateExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/LocalDateTimeExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/LocalTimeExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/NewDateTimeExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/dates/ZonedDateTimeExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/Client123.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/Client14.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/DefaultMethodExample2.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/DefaultMethodsExample1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/Interface1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/Interface2.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/Interface3.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/Interface4.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/Multiplier.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/MultiplierClient.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/defaults/MultiplierImpl.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/BiConsumerExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/BiFunctionExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/BiPredicateExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/BinaryOperatorExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/ConsumerExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/FunctionExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/FunctionExample1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/FunctionStudentExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/PredicateAndConsumerExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/PredicateExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/PredicateStudentExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/PrimitiveConsumerExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/PrimitivePredicateExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/SupplierExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/functionalInterfaces/UnaryOperatorExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/imperativevsdeclarative/ImperativeVsDeclarativeExample1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/imperativevsdeclarative/ImperativeVsDeclarativeExample2.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/lambda/ComparatorLambda.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/lambda/LambdaExceptionHandlingExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/lambda/LambdaVariable1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/lambda/LambdaVariable2.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/lambda/RunnableLambdaExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/methodreferences/ConsumerMethodReferenceExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/methodreferences/FunctionMethodReferenceExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/methodreferences/RefactorMethodReferenceExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/methodreferences/SupplierMethodReferenceExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamAggregateExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamAsExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamBoxingUnboxingExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamMapExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamRangesExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamsExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/optional/OptionalExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/optional/OptionalMapFlatMapExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/optional/OptionalOfEmptyNullableExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/optional/OptionalOrElseExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/optional/OptionalPresentExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/parallelstreams/ParallelStreamExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/parallelstreams/ParallelStreamExample1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/parallelstreams/ParallelStreamsBoxedExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/parallelstreams/Sum.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/parallelstreams/SumClient.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/qAnda/StudentsQuestion1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/qAnda/StudentsQuestion2.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/CollectionsvsStreams.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamFlatMapExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamReduceExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsComparatorExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsFilterExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsFilterMapReduceExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsFindAnyFirstExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsLimitSkipExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsMapExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsMatchExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsMaxMinExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsOfGenerateIterateExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams_terminal/StreamsCountingExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams_terminal/StreamsGroupingByExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams_terminal/StreamsJoiningExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams_terminal/StreamsMappingExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams_terminal/StreamsMinByMaxByExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams_terminal/StreamsPartitioningExample.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/java_8/streams_terminal/StreamsSumAvgExample.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/java_8/streamsAPI/streamExample.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/java_8/streams/StreamsExample.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeInsightWorkspaceSettings\">\r\n    <option name=\"optimizeImportsOnTheFly\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2hgSnVhoWJD3afOuTr8KzWPBKMq\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Ritesh Projects/Java/Java Journey/src/java_8\",\r\n    \"onboarding.tips.debug.path\": \"C:/Ritesh Projects/Java/Java Journey/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Ritesh Projects\\Java\\Java Journey\\src\\java_8\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.streamExample\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"Java Journey\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"streamExample\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"java_8.streamsAPI.streamExample\" />\r\n      <module name=\"Java Journey\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"java_8.streamsAPI.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.streamExample\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"51483e12-95c4-43cf-ba3f-ff57842dee6b\" name=\"Changes\" comment=\"\" />\r\n      <created>1718014395534</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1718014395534</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initial Commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718014936955</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718014936955</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Initial Commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718015650460</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718015650460</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial Commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Initial Commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6980e2d9275316e858dd9c92dd4f693db0dc9f85)
++++ b/.idea/workspace.xml	(date 1729060350210)
+@@ -4,100 +4,18 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="51483e12-95c4-43cf-ba3f-ff57842dee6b" name="Changes" comment="Initial Commit">
+-      <change afterPath="$PROJECT_DIR$/src/java_8/collections/ArrayListEnhancements.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/constructorreference/ConstructorReferenceExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/data/Bike.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/data/Student.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/data/StudentDataBase.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/ComparingDatesPeriodExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/ComparingTimesDurationExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/DatetoLocalDateExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/FormattingLocalDateExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/FormattingLocalDateTimeExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/FormattingLocalTimeExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/InstantExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/LocalDateExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/LocalDateTimeExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/LocalTimeExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/NewDateTimeExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/dates/ZonedDateTimeExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/Client123.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/Client14.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/DefaultMethodExample2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/DefaultMethodsExample1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/Interface1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/Interface2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/Interface3.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/Interface4.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/Multiplier.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/MultiplierClient.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/defaults/MultiplierImpl.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/BiConsumerExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/BiFunctionExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/BiPredicateExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/BinaryOperatorExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/ConsumerExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/FunctionExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/FunctionExample1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/FunctionStudentExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/PredicateAndConsumerExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/PredicateExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/PredicateStudentExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/PrimitiveConsumerExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/PrimitivePredicateExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/SupplierExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/functionalInterfaces/UnaryOperatorExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/imperativevsdeclarative/ImperativeVsDeclarativeExample1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/imperativevsdeclarative/ImperativeVsDeclarativeExample2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/lambda/ComparatorLambda.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/lambda/LambdaExceptionHandlingExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/lambda/LambdaVariable1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/lambda/LambdaVariable2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/lambda/RunnableLambdaExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/methodreferences/ConsumerMethodReferenceExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/methodreferences/FunctionMethodReferenceExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/methodreferences/RefactorMethodReferenceExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/methodreferences/SupplierMethodReferenceExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamAggregateExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamAsExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamBoxingUnboxingExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamMapExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamRangesExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/numericstreams/NumericStreamsExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/optional/OptionalExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/optional/OptionalMapFlatMapExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/optional/OptionalOfEmptyNullableExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/optional/OptionalOrElseExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/optional/OptionalPresentExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/parallelstreams/ParallelStreamExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/parallelstreams/ParallelStreamExample1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/parallelstreams/ParallelStreamsBoxedExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/parallelstreams/Sum.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/parallelstreams/SumClient.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/qAnda/StudentsQuestion1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/qAnda/StudentsQuestion2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/CollectionsvsStreams.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamFlatMapExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamReduceExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsComparatorExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsFilterExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsFilterMapReduceExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsFindAnyFirstExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsLimitSkipExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsMapExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsMatchExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsMaxMinExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsOfGenerateIterateExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams_terminal/StreamsCountingExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams_terminal/StreamsGroupingByExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams_terminal/StreamsJoiningExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams_terminal/StreamsMappingExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams_terminal/StreamsMinByMaxByExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams_terminal/StreamsPartitioningExample.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/java_8/streams_terminal/StreamsSumAvgExample.java" afterDir="false" />
++    <list default="true" id="51483e12-95c4-43cf-ba3f-ff57842dee6b" name="Changes" comment="Java 8 features">
++      <change afterPath="$PROJECT_DIR$/src/InterviewQuestions/StringTrickyQuestion/DistinctWordsByLength.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/InterviewQuestions/StringTrickyQuestion/LongestPalindromicSubstringFromListOfStrings.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Stream/Integer_StreamsAPI_Java8.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Stream/String_StreamsAPI_java8.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/java_8/streamsAPI/streamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_8/streams/StreamsExample.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/data/Bike.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/data/Student.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/data/StudentDataBase.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/java_8/streams_terminal/StreamsGroupingByExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_8/streams_terminal/StreamsGroupingByExample.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -110,12 +28,26 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="Interface" />
+         <option value="Class" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="MavenImportPreferences">
++    <option name="generalSettings">
++      <MavenGeneralSettings>
++        <option name="useMavenConfig" value="true" />
++      </MavenGeneralSettings>
++    </option>
++  </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
+   </component>
+   <component name="ProjectId" id="2hgSnVhoWJD3afOuTr8KzWPBKMq" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+@@ -125,36 +57,82 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "master",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "last_opened_file_path": "C:/Ritesh Projects/Java/Java Journey/src/java_8",
+-    "onboarding.tips.debug.path": "C:/Ritesh Projects/Java/Java Journey/src/Main.java"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Ritesh Projects/Java/Interview&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Ritesh Projects/Java/Java Journey/src/Main.java&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Ritesh Projects\Java\Java Journey\src\java_8" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.streamExample">
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Main" />
++  <component name="RunManager" selected="Application.DistinctWordsByLength">
++    <configuration name="DistinctWordsByLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="InterviewQuestions.StringTrickyQuestion.DistinctWordsByLength" />
++      <module name="Java Journey" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="InterviewQuestions.StringTrickyQuestion.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="LongestPalindromicSubstringFromListOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="InterviewQuestions.StringTrickyQuestion.LongestPalindromicSubstringFromListOfStrings" />
++      <module name="Java Journey" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="InterviewQuestions.StringTrickyQuestion.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="OptionalOfEmptyNullableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java_8.optional.OptionalOfEmptyNullableExample" />
+       <module name="Java Journey" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="java_8.optional.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="streamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="java_8.streamsAPI.streamExample" />
++    <configuration name="OptionalOrElseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java_8.optional.OptionalOrElseExample" />
+       <module name="Java Journey" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="java_8.streamsAPI.*" />
++          <option name="PATTERN" value="java_8.optional.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="StreamFlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="java_8.streams.StreamFlatMapExample" />
++      <module name="Java Journey" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="java_8.streams.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -164,8 +142,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.streamExample" />
+-        <item itemvalue="Application.Main" />
++        <item itemvalue="Application.DistinctWordsByLength" />
++        <item itemvalue="Application.LongestPalindromicSubstringFromListOfStrings" />
++        <item itemvalue="Application.OptionalOrElseExample" />
++        <item itemvalue="Application.OptionalOfEmptyNullableExample" />
++        <item itemvalue="Application.StreamFlatMapExample" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -194,7 +175,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1718015650460</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Java 8 features">
++      <option name="closed" value="true" />
++      <created>1718016999824</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1718016999824</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Java 8 features">
++      <option name="closed" value="true" />
++      <created>1718017054092</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1718017054092</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -210,6 +207,23 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Initial Commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
++    <MESSAGE value="Java 8 features" />
++    <option name="LAST_COMMIT_MESSAGE" value="Java 8 features" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/InterviewQuestions/StringTrickyQuestion/LongestPalindromicSubstringFromListOfStrings.java</url>
++          <line>49</line>
++          <option name="timeStamp" value="2" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/InterviewQuestions/StringTrickyQuestion/LongestPalindromicSubstringFromListOfStrings.java</url>
++          <line>73</line>
++          <option name="timeStamp" value="3" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
+   </component>
+ </project>
+\ No newline at end of file
