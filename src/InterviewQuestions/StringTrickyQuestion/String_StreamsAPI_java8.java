@@ -1,4 +1,4 @@
-package Stream;
+package InterviewQuestions.StringTrickyQuestion;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;
