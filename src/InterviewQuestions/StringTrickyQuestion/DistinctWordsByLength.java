@@ -50,7 +50,7 @@ public class DistinctWordsByLength {
         for (Map.Entry<String, Long> entry : wordCountMap.entrySet()) {
             String word = entry.getKey();
             Long count = entry.getValue();
-            System.out.println("Word: " + word + ", Length: " + word.length() + ", Count: " + count);
+           // System.out.println("Word: " + word + ", Length: " + word.length() + ", Count: " + count);
         }
     }
 

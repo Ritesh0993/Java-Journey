@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class String_StreamsAPI_java8 {
 
@@ -13,6 +14,12 @@ public class String_StreamsAPI_java8 {
 
         //First non Repeating Char of a String
        String str = "SWISS";
+
+         Map<String,Long> result = Arrays.stream(str.split(""))
+                .collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+
+        System.out.println("Letter count of String : "+result);
+
 
        Character nonRepeatingChar = Arrays.stream(str.split(""))
                .collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()))
@@ -32,12 +39,24 @@ public class String_StreamsAPI_java8 {
 
         List<String> inputList = List.of("The quick brown fox jumps over the lazy dog");
 
-        String result= inputList.stream()
+        String result2 = inputList.stream()
                 .map(word->new StringBuilder(word).reverse().toString())
                 .collect(Collectors.joining(" "));
 
-        System.out.println(result);
+        System.out.println(result2);
 
+
+        /**
+         * Find the index of vowels present in the string
+         */
+        String input = "Ritesh patil";
+
+        List<Integer> vowelIndices = IntStream.range(0, input.length())  // Generate range of indices
+                .filter(i -> "AEIOUaeiou".indexOf(input.charAt(i)) != -1) // Check if character at index i is a vowel
+                .boxed()                                                 // Convert int to Integer
+                .collect(Collectors.toList());                           // Collect indices in a list
+
+        System.out.println("Vowel indices: " + vowelIndices);
 
 
 
