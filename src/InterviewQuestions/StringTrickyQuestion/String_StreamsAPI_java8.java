@@ -58,8 +58,33 @@ public class String_StreamsAPI_java8 {
 
         System.out.println("Vowel indices: " + vowelIndices);
 
+        /**
+         *  Check is given string is anagram or not
+         */
+
+        String s1= "Listen";
+        String s2 = "Silent";
+
+        boolean output;
+
+        if(s1 == null || s2 == null || s1.length()!=s2.length()){
+         output = false;
+        }else{
+            output = Arrays.equals(s1.toLowerCase().chars().sorted().toArray(),s2.toLowerCase().chars().sorted().toArray());
+        }
+        System.out.println("String Anagram Result : "+output);
 
 
+        Integer s3= 123456;
+        Integer s4 = 123456;
+
+        boolean integerAnagram;
+
+        if(s3 == null || s4 == null || s1.length()!=s2.length()){
+            integerAnagram = false;
+        }else{
+            integerAnagram = Arrays.equals(s3.toString().toLowerCase().chars().sorted().toArray(),s4.toString().toLowerCase().chars().sorted().toArray());
+        }
+        System.out.println("Integer Anagram Result : "+integerAnagram);
     }
-
 }
